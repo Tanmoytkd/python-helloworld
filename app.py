@@ -1,8 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
 
-print("Genjam Shuru hoise")
-
 @app.route("/")
 def hello():
     return "Hello World!"
