@@ -7,7 +7,7 @@ def hello():
 
 @app.route("/test")
 def test():
-    return "Hello World! This is a test"
+    return "Hello World! This is a test to check ArgoCD"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
